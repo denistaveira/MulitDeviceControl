@@ -1,36 +1,36 @@
 var d01 = document.getElementById('estado_01').innerHTML
 if (d01 === '0') {
-    document.getElementById('estado_01').innerHTML = '1'
+    //document.getElementById('estado_01').innerHTML = '1'
     document.getElementById('botao_01').innerHTML = '<a href=\'/?desligar_01\' class=\'botao\'><button>Desligar 01</button></a>'
 } else {
-    document.getElementById('estado_01').innerHTML = '0'
+    //document.getElementById('estado_01').innerHTML = '0'
     document.getElementById('botao_01').innerHTML = '<a href=\'/?ligar_01\' class=\'botao\'><button>Ligar 01</button></a>'
 }
 
 var d02 = document.getElementById('estado_02').innerHTML
 if (d02 === '0') {
-    document.getElementById('estado_02').innerHTML = '1'
+    //document.getElementById('estado_02').innerHTML = '1'
     document.getElementById('botao_02').innerHTML = '<a href=\'/?desligar_02\' class=\'botao\'><button>Desligar 02</button></a>'
 } else {
-    document.getElementById('estado_02').innerHTML = '0'
+    //document.getElementById('estado_02').innerHTML = '0'
     document.getElementById('botao_02').innerHTML = '<a href=\'/?ligar_02\' class=\'botao\'><button>Ligar 02</button></a>'
 }
 
 var d03 = document.getElementById('estado_03').innerHTML
 if (d03 === '0') {
-    document.getElementById('estado_03').innerHTML = '1'
+    //document.getElementById('estado_03').innerHTML = '1'
     document.getElementById('botao_03').innerHTML = '<a href=\'/?desligar_03\' class=\'botao\'><button>Desligar 03</button></a>'
 } else {
-    document.getElementById('estado_03').innerHTML = '0'
+    //document.getElementById('estado_03').innerHTML = '0'
     document.getElementById('botao_03').innerHTML = '<a href=\'/?ligar_03\' class=\'botao\'><button>Ligar 03</button></a>'
 }
 
 var d04 = document.getElementById('estado_04').innerHTML
 if (d04 === '0') {
-    document.getElementById('estado_04').innerHTML = '1'
+    //document.getElementById('estado_04').innerHTML = '1'
     document.getElementById('botao_04').innerHTML = '<a href=\'/?desligar_04\' class=\'botao\'><button>Desligar 04</button></a>'
 } else {
-    document.getElementById('estado_04').innerHTML = '0'
+    //document.getElementById('estado_04').innerHTML = '0'
     document.getElementById('botao_04').innerHTML = '<a href=\'/?ligar_04\' class=\'botao\'><button>Ligar 04</button></a>'
 }
 
