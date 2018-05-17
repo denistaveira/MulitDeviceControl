@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='pt-br'>
+<head>
+  <meta charset='UTF-8'>
+  <title>Taveira's House</title>
+  <!--<link rel='stylesheet' type='text/css' href='https://cdn.rawgit.com/denistaveira/ArduinoVentilador/25807fa5/styles.css'>-->
+  <link rel='stylesheet' type='text/css' href='styles.css'>
+</head>
+<body>
+<H1 align='center'>Taveira's House</H1>
+
+<div id='botao_lamp'></div>
+<div id='estado_lamp' style='visibility: hidden;'>1</div>
+
+<div id='botao_geral'></div>
+<div id='estado_geral' style='visibility: hidden;'>1</div>
+
+<div id='botao_vent'></div>
+<div id='estado_vent' style='visibility: hidden;'>1</div>
+
+<div id='botao_exaust'></div>
+<div id='estado_exaust' style='visibility: hidden;'>1</div>
+
+<h2 align='center'>Potência Ventilador</h2>
+<div class='slidecontainer'>
+  <input type='range' min='0' max='255' value='0' class='slider' id='myRange' onchange='enviar()'>
+</div>
+
+<script src='controle.js' charset='utf-8'></script>
+
+</body>
+</html>
